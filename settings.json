@@ -22,9 +22,10 @@
 
   // 🎛️ Sidebar (custom colors)
   "workbench.colorCustomizations": {
-    "sideBar.background": "#111111",
+    "sideBar.background": "#10111d",
     "sideBar.foreground": "#AAAAAA",
-    "editor.background": "#0D0D0D"
+    "editor.background": "#0D0D0D",
+    "sideBar.border" : "#717171"
   },
 
   // ⌨️ Terminal
