@@ -1,67 +1,40 @@
 {
-  /** ------------ Workbench Settings ------------ **/
-  "workbench.colorCustomizations": {
-    "inlineparameters.annotationBackground": "#282A3600",
-    "inlineparameters.annotationForeground": "#7b82af",
-    "scrollbar.shadow": "#24292e00"
-  },
-  "workbench.iconTheme": "symbols",
+  // 🎨 Colors And Themes
+  "workbench.colorTheme": "Tokyo Night", // pustota
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.editorLargeFileConfirmation": 10024,
-  "workbench.layoutControl.enabled": false,
-  "workbench.editor.showTabs": "single",
-  "workbench.tree.indent": 16,
-  "workbench.startupEditor": "none",
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.sideBar.location": "left",
-  "editor.cursorSmoothCaretAnimation": "on",
 
-  /** ------------ Breadcrumbs Configurations ------------ **/
-  "breadcrumbs.enabled": false,
-  "breadcrumbs.symbolPath": "off",
-  "breadcrumbs.filePath": "on",
+  // 🖋️ Font
+  "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
 
-  /** ------------ Editor Settings ------------ **/
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 16,
-  "editor.fontWeight": 450,
-  "editor.lineHeight": 26,
-  "editor.lineNumbers": "on",
-  "editor.folding": true,
-  "editor.glyphMargin": true,
-  "editor.guides.indentation": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.cursorStyle": "line",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "editor.stickyScroll.enabled": true,
+  // 🧹 Minimalism
+  "workbench.activityBar.location": "hidden", 
+  "window.commandCenter": false,              
+  "workbench.editor.showTabs": "single",      
+  "editor.minimap.enabled": false,            
 
-  /** ------------ Terminal Configurations ------------ **/
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.enableMultiLinePasteWarning": "always",
-  "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.cursorBlinking": true,
-
-  /** ------------ Additional Configurations ------------ **/
-  "vscode_custom_css.imports": [
-    "file:///Users/atillaismayil/.vscode/vscode-custom/style.css",
-    "file:///Users/atillaismayil/.vscode/vscode-custom/script.js"
-  ],
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
+  // 📂 Explorer
+  "explorer.compactFolders": false, 
+  "explorer.decorations.colors": false,
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Ghibli's Spirited Away",
+
+  // 🎛️ Sidebar (custom colors)
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#111111",
+    "sideBar.foreground": "#AAAAAA",
+    "editor.background": "#0D0D0D"
+  },
+
+  // ⌨️ Terminal
+  "terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+  "terminal.integrated.fontSize": 14,
+
+  // 🧾 Formatting And Saving
+  "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
-  "cmake.cmakePath": "",
-  "[cpp]": {
-    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-  }
+  "workbench.sideBar.location": "right",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.agent.enabled": false,
 }
